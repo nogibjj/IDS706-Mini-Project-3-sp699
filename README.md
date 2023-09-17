@@ -12,8 +12,8 @@
 #### :ballot_box_with_check: To-do List
 * __Proficiency in Data__: Read the specific data which is about `.csv` and show its `statistics` (e.g., mean, median, standard deviation)
 * __Project Development__: Add `Polars` for data analysis and other packages such as `Seaborn` or `Matlibplot` to visualize data</br>
-* __Language Use__: Make `python file` and `test file` to see repository run well in GitHub Actions.</br>
-* __Linting, Testing, and Formatting__: Check if lint and test is passed. Format the file using proper code.</br>
+* __Language Use__: Make `python file` and `test file` to see repository run well in GitHub Actions</br>
+* __Linting, Testing, and Formatting__: Check if lint and test is passed. Format the file using proper code</br>
 -------------------------------------------------
 #### :ballot_box_with_check: Dataset
 * `penguins.csv`
@@ -98,7 +98,7 @@ __`Step 4`__ : Check whether GitHub Action is working correctly for Linting, Tes
 * `Lint`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/93703cd5-27e8-4ace-b15b-a34717baa66d.png" width="400" height="150"/></br>
 * `Test`</br>
-<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/6d0da522-b174-4587-8751-628c101e995d.png" width="580" height="400"/></br>
+<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/22e42d61-650e-4415-b2bf-8cdc05b1cd5f.png" width="560" height="400"/></br>
 * `Format`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/99e24b49-b970-4249-b986-3034100e31cd.png" width="250" height="130"/></br>
 --------------------------------
