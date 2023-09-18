@@ -14,7 +14,7 @@ def load_data():
 # Calculate mean, median, standard deviation of each columns
 def calculate_stat():
     penguins_df = load_data()
-    penguins_desc = load_data.describe()
+    penguins_desc = penguins_df.describe()
     print(penguins_desc)
 
 
@@ -25,7 +25,7 @@ calculate_stat()
 def build_histogram():
     penguins_df = load_data()
     plt.hist(
-        load_data["bill_length_mm"].to_pandas(),
+        penguins_df["bill_length_mm"].to_pandas(),
         bins=20,
         color="green",
         edgecolor="white",
