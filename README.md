@@ -1,4 +1,4 @@
-![CI Python & Polars](https://github.com/nogibjj/Suim-Park-Mini-Project-3/actions/workflows/main.yml/badge.svg)
+![CI Python & Polars](https://github.com/Suim-Park/Mini-Project-3/actions/workflows/main.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
 ### Mini Project 3 :page_facing_up:</br> 
@@ -12,14 +12,14 @@
 #### :ballot_box_with_check: To-do List
 * __Proficiency in Data__: Read the specific data which is about `.csv` and show its `statistics` (e.g., mean, median, standard deviation)
 * __Project Development__: Add `Polars` for data analysis and other packages such as `Seaborn` or `Matlibplot` to visualize data</br>
-* __Language Use__: Make `python file` and `test file` to see repository run well in GitHub Actions.</br>
-* __Linting, Testing, and Formatting__: Check if lint and test is passed. Format the file using proper code.</br>
+* __Language Use__: Make `python file` and `test file` to see repository run well in GitHub Actions</br>
+* __Linting, Testing, and Formatting__: Check if lint and test is passed. Format the file using proper code</br>
 -------------------------------------------------
 #### :ballot_box_with_check: Dataset
 * `penguins.csv`
   <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/fe1c7646-539f-4bd5-ba5f-c67f47cbc4c9.png" width="600" height="400"/>
   - Data were collected and made available by __Dr. Kristen Gorman__ and the __Palmer Station__, Antarctica LTER, a member of the Long Term Ecological Research Network. It shows three different species of penguins observed in the Palmer Archipelago, Antarctica.
-  - [penguins.csv](https://github.com/suim-park/Mini-Project-3/blob/main/penguins.csv)
+  - [penguins.csv](https://github.com/nogibjj/Suim-Park-Mini-Project-3/blob/main/penguins.csv)
 * `Description of variables`</br>
   <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/6b0020de-5499-43ea-b6d6-a67f52aa8d58.png" width="350" height="450"/></br>
   - In this dataset, we can observe several important variables, among which the unfamiliar 'bill_length_mm,' 'bill_depth_mm,' and 'flipper_length_mm' can be understood through the following figures.
@@ -31,7 +31,7 @@ __`Step 1`__ : Set up with the necessary files to build GitHub Repository such a
 - `requirements.txt`: Add `Polars` and `Matlibplot`(version=3.7.1) packages</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/d9d32b47-e888-4ac1-a06b-6fb23e562a62.png" width="160" height="340"/></br>
 - `main.yml`</br>
-<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/ee277e5e-416b-49bf-b1a2-fcea262c28de.png" width="230" height="370"/></br>
+<img src="https://github.com/suim-park/Mini-Project-3/assets/143478016/4500fa92-97e0-4e09-825e-dd5d05fe0c72g.png" width="400" height="750"/></br>
 - `Dockerfile`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/34f565f5-fa3a-4d75-9824-8a30db7b4d38.png" width="1300" height="320"/></br>
 - `devcontainer.json`</br>
@@ -92,16 +92,16 @@ if __name__ == "__main__":
 __`Step 3`__ : Verify if the statistics of 'penguins.csv' are displayed using 'main.py' and 'test_main.py.' Additionally, examine whether the histogram of one of the data variables, 'bill_length_mm,' has been properly visualized and saved in the repository.
 * Statistics</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/f50b98f2-3923-4f27-ab2c-95cbd972ec77.png" width="600" height="280"/></br>
-* Visualization ([bill_length_hist.png](https://github.com/suim-park/Mini-Project-3/blob/main/bill_length_hist.png))</br>
+* Visualization ([bill_length_hist.png](https://github.com/nogibjj/Suim-Park-Mini-Project-3/blob/main/bill_length_hist.png))</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/6844bdde-92d3-47ed-9acd-7b0792954c13.png" width="600" height="430"/></br>
 __`Step 4`__ : Check whether GitHub Action is working correctly for Linting, Testing, and Formatting checks.</br>
 * `Lint`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/93703cd5-27e8-4ace-b15b-a34717baa66d.png" width="400" height="150"/></br>
 * `Test`</br>
-<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/6d0da522-b174-4587-8751-628c101e995d.png" width="580" height="400"/></br>
+<img src="https://github.com/suim-park/Mini-Project-3/assets/143478016/e3aa80bb-3900-4bb9-a60e-de6150e2ccfd.png" width="480" height="200"/></br>
 * `Format`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/99e24b49-b970-4249-b986-3034100e31cd.png" width="250" height="130"/></br>
 --------------------------------
 #### :ballot_box_with_check: Summary
-  : The results of the statistical analysis of the 'penguins.csv' data and the information about the 'bill_length_mm' histogram can be found in the following summary. I created the summary using Markdown in a Jupyter Notebook, and you can access it by clicking **[here](https://github.com/suim-park/Mini-Project-3/blob/main/Summary.pdf)**.</br></br>
+  : The results of the statistical analysis of the 'penguins.csv' data and the information about the 'bill_length_mm' histogram can be found in the following summary. I created the summary using Markdown in a Jupyter Notebook, and you can access it by clicking **[here](https://github.com/nogibjj/Suim-Park-Mini-Project-3/blob/main/Summary.pdf)**.</br></br>
   :exclamation: ***Click on the link to go directly to the Summary.pdf***
