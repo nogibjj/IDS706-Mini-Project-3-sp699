@@ -5,17 +5,15 @@ import matplotlib.pyplot as plt
 
 
 # Load the dataset from .csv file
-def load_data():
-    penguins_df = pl.read_csv("penguins.csv")
-    print(penguins_df)
-    return penguins_df
+penguins_df = pl.read_csv("penguins.csv")
+print(penguins_df)
 
 
 # Calculate mean, median, standard deviation of each columns
 def calculate_stat():
-    penguins_df = load_data()
     penguins_desc = penguins_df.describe()
     print(penguins_desc)
+    return penguins_desc
 
 
 calculate_stat()
@@ -23,9 +21,8 @@ calculate_stat()
 
 # Make a histogram of 'bill_length_mm' column in penguins.csv
 def build_histogram():
-    penguins_df = load_data()
     plt.hist(
-        penguins_df["bill_length_mm"].to_pandas(),
+        penguins_df["bill_length_mm"],
         bins=20,
         color="green",
         edgecolor="white",
