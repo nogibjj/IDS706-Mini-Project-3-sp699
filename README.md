@@ -95,6 +95,8 @@ __`Step 3`__ : Verify if the statistics of 'penguins.csv' are displayed using 'm
 * Visualization ([bill_length_hist.png](https://github.com/nogibjj/Suim-Park-Mini-Project-3/blob/main/bill_length_hist.png))</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/6844bdde-92d3-47ed-9acd-7b0792954c13.png" width="600" height="430"/></br>
 __`Step 4`__ : Check whether GitHub Action is working correctly for Linting, Testing, and Formatting checks.</br>
+* `Generate Graph and Markdown`</br>
+<img src="https://github.com/suim-park/Mini-Project-3/assets/143478016/eee4c8a3-8280-4249-8834-63913471dbcd.png" width="600" height="600"/></br>
 * `Lint`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/93703cd5-27e8-4ace-b15b-a34717baa66d.png" width="400" height="150"/></br>
 * `Test`</br>
