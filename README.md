@@ -31,7 +31,7 @@ __`Step 1`__ : Set up with the necessary files to build GitHub Repository such a
 - `requirements.txt`: Add `Polars` and `Matlibplot`(version=3.7.1) packages</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/d9d32b47-e888-4ac1-a06b-6fb23e562a62.png" width="160" height="340"/></br>
 - `main.yml`</br>
-<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/ee277e5e-416b-49bf-b1a2-fcea262c28de.png" width="230" height="370"/></br>
+<img src="https://github.com/suim-park/Mini-Project-3/assets/143478016/4500fa92-97e0-4e09-825e-dd5d05fe0c72g.png" width="400" height="750"/></br>
 - `Dockerfile`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/34f565f5-fa3a-4d75-9824-8a30db7b4d38.png" width="1300" height="320"/></br>
 - `devcontainer.json`</br>
