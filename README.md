@@ -98,7 +98,7 @@ __`Step 4`__ : Check whether GitHub Action is working correctly for Linting, Tes
 * `Lint`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/93703cd5-27e8-4ace-b15b-a34717baa66d.png" width="400" height="150"/></br>
 * `Test`</br>
-<img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/22e42d61-650e-4415-b2bf-8cdc05b1cd5f.png" width="560" height="400"/></br>
+<img src="https://github.com/suim-park/Mini-Project-3/assets/143478016/e3aa80bb-3900-4bb9-a60e-de6150e2ccfd.png" width="480" height="200"/></br>
 * `Format`</br>
 <img src="https://github.com/nogibjj/Suim-Park-Mini-Project-2/assets/143478016/99e24b49-b970-4249-b986-3034100e31cd.png" width="250" height="130"/></br>
 --------------------------------
