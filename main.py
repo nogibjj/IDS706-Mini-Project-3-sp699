@@ -3,13 +3,16 @@
 import polars as pl
 import matplotlib.pyplot as plt
 
-penguins_df = pl.read_csv("penguins.csv")
-print(penguins_df)
+
+# Load the dataset from .csv file
+def load_data():
+    penguins_df = pl.read_csv("penguins.csv")
+    print(penguins_df)
 
 
 # Calculate mean, median, standard deviation of each columns
 def calculate_stat():
-    penguins_desc = penguins_df.describe()
+    penguins_desc = load_data.describe()
     print(penguins_desc)
 
 
@@ -18,7 +21,7 @@ calculate_stat()
 
 # Make a histogram of 'bill_length_mm' column in penguins.csv
 def build_histogram():
-    plt.hist(penguins_df["bill_length_mm"], bins=20, color="green", edgecolor="white")
+    plt.hist(load_data["bill_length_mm"], bins=20, color="green", edgecolor="white")
     plt.xlabel("bill_length_mm")
     plt.ylabel("Frequency")
     plt.title("Bill Length Histogram")
