@@ -1,4 +1,4 @@
-![CI Python & Polars](https://github.com/Suim-Park/Mini-Project-3/actions/workflows/main.yml/badge.svg)
+![CI Python & Polars](https://github.com/nogibjj/Suim-Park-Mini-Project-3/actions/workflows/main.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
 ### Mini Project 3 :page_facing_up:</br> 
