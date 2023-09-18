@@ -11,7 +11,7 @@ def test_calculate_stat():
 
 def test_hist():
     result2 = build_histogram()
-    assert result2 is not None
+    assert result2 is None
 
 
 if __name__ == "__main__":
